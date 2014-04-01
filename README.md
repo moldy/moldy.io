@@ -1,4 +1,4 @@
 moldy.io
 ========
 
-Website for moldy
+Website for [moldy.io](http://moldy.io)
