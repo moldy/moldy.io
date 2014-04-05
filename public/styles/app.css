@@ -6192,6 +6192,7 @@ html > body.mainService > div.wrapper > section[role=main] > header > div[class*
   position: absolute;
   top: 50%;
   left: 50%;
+  right: 25px;
   -webkit-transform: translate(20px, -75%);
   -ms-transform: translate(20px, -75%);
   transform: translate(20px, -75%);
@@ -6267,6 +6268,7 @@ html > body.mainService > div.wrapper > section[role=main] > div[class*=containe
     position: absolute;
     top: 50%;
     left: 50%;
+    right: 25px;
     -webkit-transform: translate(20px, -75%);
     -ms-transform: translate(20px, -75%);
     transform: translate(20px, -75%);
