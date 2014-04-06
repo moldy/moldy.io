@@ -3,7 +3,7 @@ build:
 	@./node_modules/.bin/bower install --allow-root --config.interactive=false
 
 clean:
-	@rm -rf node_modules bower_components .tmp
+	@rm -rf node_modules bower_components public .tmp
 
 release:
 	@make clean

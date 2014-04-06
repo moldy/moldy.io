@@ -1,0 +1,53 @@
+html > body {
+
+	background-color: @moldy-color-blue;
+
+	> div.wrapper {
+
+		>header {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			height: 50px;
+			z-index: 10;
+
+			>nav {
+				position: absolute;
+				top: 0;
+				right: 0;
+
+				>ul {
+					margin: 0;
+					padding: 0 10px 0 0;
+					list-style-type: none;
+
+					>li {
+						display: inline;
+						float: left;
+
+						>a {
+							padding: 0 10px;
+							display: block;
+							line-height: 50px;
+							color: #aaa;
+
+							&:hover {
+								background-color: #f0f0f0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		>section[role=main] {
+
+		}
+
+		>footer {
+			padding: 20px;
+		}
+
+	}
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="app" ng-controller="app.controller">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>base</title>
+
+  <script src="/scripts/libs.js"></script>
+  <script src="/scripts/app.js"></script>
+
+  <link rel="stylesheet" href="/styles/app.css">
+
+</head>
+<body ng-class="self.name">
+
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/moldy/moldy" target="_blank">GitHub</a></li>
+          <li><a href="https://github.com/moldy/moldy#toc" target="_blank">Docs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section role="main" ng-view></section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 text-right"><img src="/images/moldy-logo-footer.png" alt="moldy"></div>
+          <div class="col-xs-6"><a href="https://github.com/moldy/moldy" target="_blank"><img src="/images/github-logo-footer.png" alt="GitHub"></a></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <small class="muted">Spawned by David Tsuji @davidtsuji and Glen Arrowsmith @garrows</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="http://10.0.0.51:35729/livereload.js"></script>
+  
+</body>
+</html>
