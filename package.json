@@ -23,10 +23,10 @@
 		"gulp-browserify": "^0.5.0",
 		"gulp-livereload": "^1.2.0",
 		"gulp-rename": "^1.2.0",
-		"mocha-phantomjs": "^3.3.2",
-		"phantomjs": "^1.9.7-1",
+		"mocha-phantomjs": "^3.6.0",
+		"phantomjs": "1.9.7-15",
 		"should": "^3.1.4",
-		"mocha": "^1.18.2",
+		"mocha": "^2.2.5",
 		"gulp-shell": "^0.2.4"
 	},
 	"dependencies": {
